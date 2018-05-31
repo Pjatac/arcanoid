@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="arcanoid.Start"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:arcanoid"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="300" Width="250">
+
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<TextBlock x:ConnectionId='1' x:Name="HelloText" HorizontalAlignment="Left" Margin="18,112,0,0" Text="HI! Please, input your name and press start button!" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center"/>
+		<TextBox x:ConnectionId='2' x:Name="NameBox" HorizontalAlignment="Left" Margin="18,157,0,0" Text="What is your name?" VerticalAlignment="Top" Width="210" TextAlignment="Center"/>
+		<Button x:ConnectionId='3' x:Name="BtnStart" Content="START" HorizontalAlignment="Left" Margin="96,207,0,0" VerticalAlignment="Top"                       />
+
+	</Grid>
+</Page>
+
